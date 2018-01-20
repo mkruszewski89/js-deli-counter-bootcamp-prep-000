@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name) {
   return greeting
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   var whoseTurn
   if (katzDeliLine.length > 0) {
     whoseTurn = katzDeliLine[0]
